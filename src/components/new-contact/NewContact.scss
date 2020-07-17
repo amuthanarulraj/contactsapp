@@ -1,0 +1,31 @@
+.new-contact-card {
+    padding: 20px;
+    margin: 5px;
+    box-shadow: 1px 0.5px 1px #a0a7ac;
+    width: 100%;
+}
+
+.field-set {
+    width: 100%;
+    margin: auto;
+    border: none;
+}
+
+.save-btn {
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 30px;
+    outline: none;
+    background: none;
+    border: none;
+    background-color: #61c944;
+    cursor: pointer;
+    color: #FFFFFF;
+    &:hover {
+        box-shadow: 1px 0px 5px rgba(103, 116, 125, 0.5);
+    }
+    &:active {
+        background-color: #54ac3b;
+    }
+}

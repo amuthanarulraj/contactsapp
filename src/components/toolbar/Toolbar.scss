@@ -1,0 +1,21 @@
+.toolbar {
+    margin: 10px;
+}
+
+.add-btn {
+    width: 70px;
+    height: 30px;
+    outline: none;
+    background: none;
+    border: none;
+    background-color: #1b88b6;
+    cursor: pointer;
+    color: #FFFFFF;
+
+    &:hover {
+        box-shadow: 1px 0px 5px rgba(103, 116, 125, 0.5);
+    }
+    &:active {
+        background-color: #1e7398;
+    }
+}

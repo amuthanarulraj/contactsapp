@@ -1,0 +1,12 @@
+.contact {
+    display: block;
+    font-size: 20px;
+    background-color: #d4dee6;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 1px 0px 5px #93a0ab;
+    }
+    margin: 5px;
+    padding: 5px;
+}
